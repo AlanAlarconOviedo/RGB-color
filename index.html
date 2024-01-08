@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Color RGB</title>
+  <link rel="icon" type="image/png"
+    href="assets/png-transparent-cmyk-color-model-color-wheel-rgb-color-model-printer-printer-electronics-symmetry-color.png">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DotGothic16&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+  <div class="main-container">
+    <div class="child-container">
+
+      <div class="color">
+        <label for="red">Red (R)</label>
+        <input type="range" id="red" min="0" max="255" value="23" step="1">
+        <p id="red-text"></p>
+      </div>
+
+      <div class="color">
+        <label for="green">Green (G)</label>
+        <input type="range" id="green" min="0" max="255" value="41" step="1">
+        <p id="green-text"></p>
+      </div>
+
+      <div class="color">
+        <label for="blue">Blue (B)</label>
+        <input type="range" id="blue" min="0" max="255" value="56" step="1">
+        <p id="blue-text"></p>
+      </div>
+
+    </div>
+
+  </div>
+  <script src="app.js"></script>
+</body>
+
+</html>
